@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Google", "Google\Google.csproj", "{5156BFF8-365B-4077-B7CA-10B62513F33A}"
+EndProject
+Project("{9344bdbb-3e7f-41fc-a0dd-8665d75ee146}") = "web", "web\web.mdproj", "{CA11F0B7-A0D4-480D-8229-9F1E1EA9C46E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5156BFF8-365B-4077-B7CA-10B62513F33A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5156BFF8-365B-4077-B7CA-10B62513F33A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5156BFF8-365B-4077-B7CA-10B62513F33A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5156BFF8-365B-4077-B7CA-10B62513F33A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA11F0B7-A0D4-480D-8229-9F1E1EA9C46E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA11F0B7-A0D4-480D-8229-9F1E1EA9C46E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA11F0B7-A0D4-480D-8229-9F1E1EA9C46E}.Release|Any CPU.ActiveCfg = Default|Any CPU
+		{CA11F0B7-A0D4-480D-8229-9F1E1EA9C46E}.Release|Any CPU.Build.0 = Default|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Google\Google.csproj
+	EndGlobalSection
+EndGlobal

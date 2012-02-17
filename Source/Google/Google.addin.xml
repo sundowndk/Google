@@ -1,0 +1,23 @@
+<Addin id          = "Google"
+       author      = "Rasmus Pedersen"
+       copyright   = "MIT X11"
+       url         = "http://www.sundown.dk/"
+       description = "Google integration for the Sorento Engine."	   
+       version     = "1.1">
+	<Runtime>
+		<Import assembly="Google.dll"/>
+	</Runtime>
+	
+	<Dependencies>
+		<Addin id="Sorento" version="1.0"/>
+		<Addin id="sConsole" version="2.0"/>
+	</Dependencies>
+	
+	<Extension path = "/SorentoLib/Init">
+		<Type type="Google.Addin.Init"/>
+	</Extension>				
+	
+	<Extension path = "/SorentoLib/Resolver/Ajaxes">
+		<Type type="Google.Addin.Ajax"/>
+	</Extension>				
+</Addin>

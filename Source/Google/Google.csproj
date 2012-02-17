@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5156BFF8-365B-4077-B7CA-10B62513F33A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Google</RootNamespace>
+    <AssemblyName>Google</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\cgi-bin\Addins\Google\</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release\cgi-bin\Addins\Google\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Mono.Posix" />
+    <Reference Include="sConsole, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\sConsole.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SNDK, Version=1.0.4416.25851, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\SNDK.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SorentoLib, Version=1.0.4430.17015, Culture=neutral, PublicKeyToken=null">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Lib\SorentoLib.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Google\Runtime.cs" />
+    <Compile Include="Google.Enums\ConfigKey.cs" />
+    <Compile Include="Google.Addin\Ajax.cs" />
+    <Compile Include="Google.Addin\Placeholder.cs" />
+    <Compile Include="Google.Addin\Init.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Google\" />
+    <Folder Include="Google.Enums\" />
+    <Folder Include="Google.Addin\" />
+    <Folder Include="Google.Strings\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Google\Analytics.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Google.addin.xml" />
+  </ItemGroup>
+</Project>

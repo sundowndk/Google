@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Google/Google/Runtime.cs">
+    <Files>
+      <File FileName="web/build.sh" Line="17" Column="42" />
+      <File FileName="Google/Google.Addin/Ajax.cs" Line="23" Column="32" />
+      <File FileName="Google/Google/Runtime.cs" Line="59" Column="136" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
