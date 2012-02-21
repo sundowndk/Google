@@ -1,10 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Google/Google/Runtime.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="web/cgi-bin/Addins/Google/data/html/xml/addins/google/index.xml">
     <Files>
       <File FileName="web/build.sh" Line="17" Column="42" />
       <File FileName="Google/Google.Addin/Ajax.cs" Line="23" Column="32" />
-      <File FileName="Google/Google/Runtime.cs" Line="75" Column="1" />
+      <File FileName="Google/Google/Runtime.cs" Line="43" Column="3" />
+      <File FileName="Google/Google/Analytics.cs" Line="1" Column="1" />
+      <File FileName="web/cgi-bin/Addins/Google/data/html/xml/addins/google/index.xml" Line="43" Column="39" />
+      <File FileName="web/cgi-bin/Addins/Google/data/content/addins/google/index.stpl" Line="7" Column="24" />
+      <File FileName="web/cgi-bin/Addins/Google/data/content/addins/google/index_script.stpl" Line="11" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

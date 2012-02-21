@@ -33,5 +33,8 @@
   <ItemGroup>
     <None Include="build.sh" />
     <None Include="javascript.jsb" />
+    <None Include="cgi-bin\Addins\Google\data\html\xml\addins\google\index.xml" />
+    <None Include="cgi-bin\Addins\Google\data\content\addins\google\index.stpl" />
+    <None Include="cgi-bin\Addins\Google\data\content\addins\google\index_script.stpl" />
   </ItemGroup>
 </Project>
